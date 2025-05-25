@@ -2,24 +2,28 @@
 
 ## Overview
 
-The Breast Cancer Diagnosis app is a machine learning-powered tool designed to assist medical professionals in diagnosing breast cancer. Using a set of measurements, the app predicts whether a breast mass is benign or malignant. It provides a visual representation of the input data using a radar chart and displays the predicted diagnosis and probability of being benign or malignant. The app can be used by manually inputting the measurements or by connecting it to a cytology lab to obtain the data directly from a machine. The connection to the laboratory machine is not a part of the app itself.
+The Breast Cancer Diagnosis Predictor is a machine learning-powered web application designed to assist in the early detection of breast cancer. Based on diagnostic measurements, the app predicts whether a breast mass is benign or malignant and displays the results with clear visualizations. It provides a visual representation of the input data using a radar chart and displays the predicted diagnosis and probability of being benign or malignant.
 
-The app was developed as a machine learning exercice from the public dataset [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data). Note that this dataset may not be reliable as this project was developed for educational purposes in the field of machine learning only and not for professional use.
+## Features
 
-A live version of the application can be found on [Streamlit Community Cloud](https://alejandro-ao-streamlit-cancer-predict-appmain-uitjy1.streamlit.app/). 
+- Manual input of cell measurement data
+- Radar chart visualization
+- Real-time prediction with probability score
+- Export functionality for analysis
+
+## Dataset
+
+This project uses the publicly available [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) from Kaggle.
+
+
+Note: This project was developed for educational purposes only and is not approved for clinical or professional medical use.
 
 ## Installation
 
-You can run this inside a virtual environment to make it easier to manage dependencies. I recommend using `conda` to create a new environment and install the required packages. You can create a new environment called `breast-cancer-diagnosis` by running:
+You can run this app in a virtual environment. Here's a quick guide:
 
 ```bash
 conda create -n breast-cancer-diagnosis python=3.10 
-```
-
-Then, activate the environment:
-
-```bash
-conda activate breast-cancer-diagnosis
 ```
 
 Then, activate the environment:
